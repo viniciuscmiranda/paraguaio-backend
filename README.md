@@ -1,0 +1,13 @@
+- iniciar projeto node `npm init -y`
+- `npm install typescript -D`
+- `npx tsc --init`
+- `npm install tsx -D`
+- configurar script de dev: `tsx watch main.ts`
+- `npm install sqlite3`
+- `npm install fastify`
+
+- após o setup, criar dados na tabela de usuários
+- criar endpoints para usuário
+  - get, get by id, post, delete, patch
+- criar endpoints para posts
+  - get by user, post, delete

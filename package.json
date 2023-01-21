@@ -1,0 +1,20 @@
+{
+  "name": "paraguaio-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch ./main.ts",
+    "db:init": "tsx ./src/database/scripts/init-database.ts",
+    "db:mock": "tsx ./src/database/scripts/mock-database.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsx": "^3.12.2",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.4"
+  }
+}
